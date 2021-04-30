@@ -1,0 +1,46 @@
+@media (max-width: 360px) {
+
+    /********Titles****************/
+    .h2Title{
+
+    }
+     /********AlignParagraphs****************/
+    p,.policesSm{
+        text-align: justify;
+        font-size: 1.3rem;
+        
+    }
+     /******** DisplayNone ****************/
+    .fond-motif{
+        background: none;
+    }
+
+    .btnCenterSm{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 511px) {
+
+    /********Titles****************/
+    .h2Title{
+
+    }
+     /********AlignParagraphs****************/
+    p,.policesSm{
+        text-align: justify;
+        font-size: 1.3rem;
+        
+    }
+     /******** DisplayNone ****************/
+    .fond-motif{
+        background: none;
+    }
+
+    footer p{
+        text-align: center;
+    }
+    
+    
+}

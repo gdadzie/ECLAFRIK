@@ -1,0 +1,113 @@
+BODY{
+    font-family: system-ui;
+    font-size: 16px;
+}
+
+.header{
+    height: 100px;
+    background-image: url(../images/png/motifs1.png);
+}
+
+.headerheight{
+    height:100px;
+}
+
+
+/**********Titres,Paragraphe,Alignement**************/
+
+.h2Title{
+    color: #B38B58;
+    padding: 5px;
+}
+.textJustitfy{
+    text-align: justify;
+}
+p{
+    font-size: 1.2em;
+}
+
+/********** Navigation & Links ****************/
+#navbarCollapse li a{
+     color:#ddb580;
+}
+
+#navbarCollapse li a:hover{
+    color:hsl(0, 0%, 100%);
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    color:#ddb580;
+}
+
+.navBarText, .navLink{
+    color:#ddb580;
+}
+
+.navColor{
+    color:#ddb580
+}
+
+
+/********** Main **************/
+
+main{
+    width: 50%;
+    
+    margin-top: 1%;
+}
+
+.mainPageLessons{
+    margin-top: 4%;
+}
+
+.smallSummary{
+    width: 250px;
+    height: 260px;
+    border: 1px solid white ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 10vh;
+}
+
+/********** Pictures,Backgrounds **************/
+
+.card-img-top{
+    height: 300px;
+}
+
+.card{
+    width:300px;
+    margin: auto;
+}
+  
+.icon-svg{
+    width: 32px;
+    height: 32px;
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-darkness{
+    background-color:#B38B58;
+}
+
+.fond-motif{
+    background-image: url(../images/png/motifs1.png);  
+}
+
+.fond-motif-wax-yellow{
+    background-image: url(../images/jpeg_jpg/motifs_yellow.jpg);
+}
+
+
+/********** EndPictures **************/
