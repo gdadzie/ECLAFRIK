@@ -1,3 +1,22 @@
+@media (max-width: 320px) {
+
+   
+    .header{
+        height: 10%;
+        
+    }
+    .logo{
+        width: 18vw;
+        
+    }
+    .navbar{
+        padding: 20px;
+    }
+
+}
+
+
+
 @media (max-width: 360px) {
 
     /********Titles****************/
@@ -18,15 +37,23 @@
     .btnCenterSm{
         text-align: center;
     }
-    
+    .header{
+        height: 120px;
+        
+    }
+    .logo{
+        width: 18vw;
+    }
+    .navbar{
+        padding: 10px;
+    }
+
 }
 
 @media (max-width: 511px) {
 
     /********Titles****************/
-    .h2Title{
 
-    }
      /********AlignParagraphs****************/
     p,.policesSm{
         text-align: justify;
@@ -42,5 +69,43 @@
         text-align: center;
     }
     
+
     
+}
+
+@media (max-width: 460px) {
+
+    .logo{
+        width: 20vw;
+    
+    }
+
+    .header{
+        height: 30vh;
+       
+    }
+
+    .navbar{
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .logo{
+        width: 20vw;
+    
+    }
+
+    .header{
+        height: 18vh;
+       
+    }
+
+    .navbar{
+        padding: 10px;
+    }
+
+
 }

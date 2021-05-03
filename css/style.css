@@ -4,12 +4,14 @@ BODY{
 }
 
 .header{
-    height: 100px;
+    height: 150px;
     background-image: url(../images/png/motifs1.png);
 }
 
 .headerheight{
     height:100px;
+    background-image: url(../images/png/motifs1.png);
+
 }
 
 
@@ -29,6 +31,7 @@ p{
 /********** Navigation & Links ****************/
 #navbarCollapse li a{
      color:#ddb580;
+     font-size: 1.2em;
 }
 
 #navbarCollapse li a:hover{
@@ -46,6 +49,7 @@ nav li a:hover{
 
 .navBarText, .navLink{
     color:#ddb580;
+    
 }
 
 .navColor{
@@ -108,6 +112,12 @@ footer{
 .fond-motif-wax-yellow{
     background-image: url(../images/jpeg_jpg/motifs_yellow.jpg);
 }
+
+.logo{
+    width: 5vw;
+    
+}
+
 
 
 /********** EndPictures **************/
